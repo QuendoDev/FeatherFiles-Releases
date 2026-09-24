@@ -1,0 +1,55 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Please don't attach private photos or videos.
+        If a specific file causes the problem, describe its type, size and where it came from instead.
+  - type: input
+    id: version
+    attributes:
+      label: FeatherFiles version
+      placeholder: e.g. 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux (AppImage)
+        - Linux (.deb)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect to happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Drop a folder with ...
+        2. Select the profile ...
+        3. Click Start ...
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Files involved
+      description: File types, approximate sizes and source (e.g. iPhone HEIC, WhatsApp video).
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages or logs
+      render: text
