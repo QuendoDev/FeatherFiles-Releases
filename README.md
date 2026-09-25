@@ -42,6 +42,8 @@ Free batch optimizer for Windows, macOS and Linux. It keeps your EXIF data and o
 - **Never overwrites.** The results go to a new `<Folder> (FeatherFiles)` folder next to the original one.
 - **Fast video.** Videos are converted to 720p H.264, using your GPU when it is available (NVIDIA, Intel, AMD or
   Apple).
+- **English and Spanish.** The app follows your system language, and you can switch it from the header at any
+  time.
 
 ## Download
 
