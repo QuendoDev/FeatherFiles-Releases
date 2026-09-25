@@ -30,7 +30,7 @@ Free batch optimizer for Windows, macOS and Linux. It keeps your EXIF data and o
 ## Why FeatherFiles?
 
 - **Private by design.** Everything runs on your computer. The app has no accounts and no telemetry, and it blocks
-  all network access.
+  all network access except an optional check for new versions.
 - **Built for huge libraries.** Point it at a folder with tens of thousands of photos and videos, and it keeps the
   same subfolder structure.
 - **Smart profiles.** Files are sorted automatically by name, folder and camera data. WhatsApp photos, camera
@@ -140,8 +140,9 @@ A signed and notarized macOS build is on the roadmap. In the meantime, use the
 <details>
 <summary><strong>Does FeatherFiles upload my files anywhere?</strong></summary>
 
-No. The desktop app processes everything locally and blocks all network requests. It doesn't collect any usage
-data either.
+No. The desktop app processes everything locally and doesn't collect any usage data. The only network request it
+makes is an optional check for new versions: it asks GitHub for the latest version number, and never sends
+anything about you or your files. You can turn it off in the app settings.
 
 </details>
 
@@ -150,6 +151,15 @@ data either.
 
 Never. Originals are only opened for reading, and the results are written to a separate folder. If that folder
 already exists, a new one is created (`(FeatherFiles 2)`, and so on).
+
+</details>
+
+<details>
+<summary><strong>How do I update?</strong></summary>
+
+When a new version is out, the app shows a notice with a **Download** button. Download the new installer and run
+it on top of the current version. Your settings and profiles are kept. You can also watch this repository
+(**Watch → Custom → Releases**) to get notified by GitHub.
 
 </details>
 

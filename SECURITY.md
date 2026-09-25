@@ -15,7 +15,9 @@ fixes.
 
 ## Security model
 
-- The app works fully offline: every network request is blocked and every browser permission is denied.
+- The app works fully offline: every network request is blocked and every browser permission is denied. The only
+  exception is an optional, read-only check for new versions against the GitHub API, which can be turned off in the
+  settings.
 - The interface runs sandboxed, with context isolation and a strict Content Security Policy.
 - Media is processed in a separate, isolated process.
 - Original files are only opened for reading, and the results are always written to a new folder.
