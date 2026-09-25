@@ -63,7 +63,7 @@ checksum of every file.
 <details>
 <summary><strong>Windows</strong></summary>
 
-1. Download `FeatherFiles-Setup-<version>.exe` from the [latest release](https://github.com/QuendoDev/FeatherFiles-Releases/releases/latest).
+1. Download `FeatherFiles-Setup-x64.exe` from the [latest release](https://github.com/QuendoDev/FeatherFiles-Releases/releases/latest).
 2. Run it and follow the installer. You can choose the installation folder, and administrator rights are not
    required.
 3. **"Windows protected your PC"?** The installer is not code-signed yet, so Microsoft SmartScreen doesn't
@@ -71,7 +71,7 @@ checksum of every file.
    one in the release notes:
 
    ```powershell
-   Get-FileHash .\FeatherFiles-Setup-<version>.exe -Algorithm SHA256
+   Get-FileHash .\FeatherFiles-Setup-x64.exe -Algorithm SHA256
    ```
 
 To uninstall it, go to **Settings → Apps → Installed apps → FeatherFiles → Uninstall**.
@@ -84,14 +84,14 @@ To uninstall it, go to **Settings → Apps → Installed apps → FeatherFiles �
 **AppImage** (any distribution):
 
 ```bash
-chmod +x FeatherFiles-<version>.AppImage
-./FeatherFiles-<version>.AppImage
+chmod +x FeatherFiles-x86_64.AppImage
+./FeatherFiles-x86_64.AppImage
 ```
 
 **Debian / Ubuntu**:
 
 ```bash
-sudo apt install ./FeatherFiles-<version>.deb
+sudo apt install ./FeatherFiles-amd64.deb
 ```
 
 On Linux, only the modification date can be restored, because the file system doesn't allow setting the
