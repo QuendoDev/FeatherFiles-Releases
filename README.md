@@ -130,6 +130,7 @@ A signed and notarized macOS build is on the roadmap. In the meantime, use the
 | Scanned documents | JPEG, 2000 px, about 250 KB, lightly sharpened |
 | Videos | H.264 720p, 1.8 Mbps, AAC audio |
 | Light videos for sharing | H.264 480p, 0.9 Mbps |
+| 10 MB video | H.264, sized to fit under 10 MB (or any size you choose) |
 | HEVC archive | H.265 1080p |
 | WhatsApp videos | Copied as they are (they're already compressed) |
 
