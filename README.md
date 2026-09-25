@@ -11,7 +11,7 @@ Free batch optimizer for Windows, macOS and Linux. It keeps your EXIF data and o
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-coming%20soon-lightgrey?logo=apple&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-AppImage%20%7C%20.deb-FCC624?logo=linux&logoColor=black)
-![Price](https://img.shields.io/badge/price-free-00C853)
+[![License](https://img.shields.io/badge/license-freeware-00C853)](LICENSE.md)
 ![Privacy](https://img.shields.io/badge/works-100%25%20offline-00C853)
 
 [**Download**](#download) ·
@@ -156,7 +156,8 @@ already exists, a new one is created (`(FeatherFiles 2)`, and so on).
 <details>
 <summary><strong>Is it really free?</strong></summary>
 
-Yes. The desktop app is free, with no ads, watermarks or file limits.
+Yes. The desktop app is free for personal and commercial use, with no ads, watermarks or file limits. See the
+[license](LICENSE.md).
 
 </details>
 
@@ -184,8 +185,14 @@ release notes and report issues. The open-source components it bundles are liste
 
 ## License
 
-FeatherFiles is free to download and use under the [terms of use](https://featherfiles.pages.dev/condiciones).
-It is not open-source software. The bundled third-party components (FFmpeg, libvips, ExifTool and others) are
-distributed under their own licenses, listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+FeatherFiles is **freeware**, distributed under the [FeatherFiles Freeware License](LICENSE.md). In short:
+
+- ✅ Free to use on any number of devices, for personal or commercial purposes.
+- ✅ You may redistribute the **official, unmodified** installers for free, for example on download sites.
+  Credit FeatherFiles and link to this repository or the website.
+- ❌ You may not modify the app, bundle it with other software or wrap it in custom installers, or charge for it.
+
+FeatherFiles is not open-source software. The bundled third-party components (FFmpeg, libvips, ExifTool and
+others) keep their own licenses, listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 Copyright © 2026 FeatherFiles.
