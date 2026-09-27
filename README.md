@@ -36,12 +36,15 @@ Free batch optimizer for Windows, macOS and Linux. It keeps your EXIF data and o
 - **Smart profiles.** Files are sorted automatically by name, folder and camera data. WhatsApp photos, camera
   shots, screenshots and videos each get the right settings.
 - **Hits a target size.** For example, camera photos come out as WebP at about 300 KB with the best quality that
-  fits that size, instead of a fixed quality setting.
+  fits that size, instead of a fixed quality setting. The final file, metadata included, never goes over it.
 - **Keeps what matters.** EXIF data (camera, capture date, GPS) is kept, and the creation and modification dates
-  are restored, so your gallery stays in the right order.
+  are restored, so your gallery stays in the right order. WhatsApp photos and videos get their date back from the
+  file name.
 - **Never overwrites.** The results go to a new `<Folder> (FeatherFiles)` folder next to the original one.
-- **Fast video.** Videos are converted to 720p H.264, using your GPU when it is available (NVIDIA, Intel, AMD or
-  Apple).
+- **Videos your way.** By default, videos are converted to 720p H.264, using your GPU when it is available
+  (NVIDIA, Intel, AMD or Apple). You can also shrink them all by a level, to a maximum size or to a percentage of
+  the original, or choose video by video, with an estimate of each final size before you start.
+- **Before and after comparator.** Compare each optimized photo with its original, side by side and at full size.
 - **Quick tasks.** Shrink every photo under a maximum size, convert to JPG, WebP or PNG, or remove metadata and
   location (GPS, camera, date) **without re-encoding**. Tasks are temporary and never change your profiles.
 - **English and Spanish.** The app follows your system language, and you can switch it from the header at any
@@ -130,11 +133,11 @@ A signed and notarized macOS build is on the roadmap. In the meantime, use the
 | Email and forms | JPEG, 1280 px, about 100 KB |
 | High-quality archive | AVIF, full resolution |
 | Scanned documents | JPEG, 2000 px, about 250 KB, lightly sharpened |
-| Videos | H.264 720p, 1.8 Mbps, AAC audio |
+| Videos | H.264 720p, 1.8 Mbps (never above ~70 % of the original), AAC audio |
 | Light videos for sharing | H.264 480p, 0.9 Mbps |
 | 10 MB video | H.264, sized to fit under 10 MB (or any size you choose) |
 | HEVC archive | H.265 1080p |
-| WhatsApp videos | Copied as they are (they're already compressed) |
+| WhatsApp videos | HD videos reduced to 720p; already compressed ones copied as they are |
 
 **Supported input formats:**
 - Photos: JPEG, PNG, WebP, AVIF, HEIC/HEIF, GIF, TIFF, BMP.
