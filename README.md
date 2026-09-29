@@ -43,8 +43,10 @@ Free batch optimizer for Windows, macOS and Linux. It keeps your EXIF data and o
 - **Never overwrites.** The results go to a new `<Folder> (FeatherFiles)` folder next to the original one.
 - **Videos your way.** By default, videos are converted to 720p H.264, using your GPU when it is available
   (NVIDIA, Intel, AMD or Apple). You can also shrink them all by a level, to a maximum size or to a percentage of
-  the original, or choose video by video, with an estimate of each final size before you start.
-- **Before and after comparator.** Compare each optimized photo with its original, side by side and at full size.
+  the original, or choose video by video, with an estimate of each final size before you start. You can also
+  convert MOV, AVI or MKV videos to MP4 (H.264 or H.265) without losing quality.
+- **Before and after comparator.** Compare each optimized photo with its original, side by side or with a
+  draggable line, and zoom in to full size.
 - **Quick tasks.** Shrink every photo under a maximum size, convert to JPG, WebP or PNG, or remove metadata and
   location (GPS, camera, date) **without re-encoding**. Tasks are temporary and never change your profiles.
 - **English and Spanish.** The app follows your system language, and you can switch it from the header at any
@@ -137,7 +139,7 @@ A signed and notarized macOS build is on the roadmap. In the meantime, use the
 | Light videos for sharing | H.264 480p, 0.9 Mbps |
 | 10 MB video | H.264, sized to fit under 10 MB (or any size you choose) |
 | HEVC archive | H.265 1080p |
-| WhatsApp videos | HD videos reduced to 720p; already compressed ones copied as they are |
+| WhatsApp videos | HD videos reduced to 720p, and those over 5 MB to about two thirds; small ones copied as they are |
 
 **Supported input formats:**
 - Photos: JPEG, PNG, WebP, AVIF, HEIC/HEIF, GIF, TIFF, BMP.
